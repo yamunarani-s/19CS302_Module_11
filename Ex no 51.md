@@ -1,4 +1,4 @@
-# EX 51 C program to reverse a string.
+azqaqza# EX 51 C program to reverse a string.
 ## DATE:
 ## AIM:
 To write a C program to reverse a string.
