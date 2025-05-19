@@ -14,3 +14,15 @@ Input will contain four integers - a,b,c,d , one on each line.
 
 Print the greatest of the four integers.
 Note: I/O will be automatically handled.
+CODE:
+int max(int x, int y) {
+    return (x > y) ? x : y;
+}
+
+int max_of_four(int a, int b, int c, int d) {
+    int m1 = max(a, b);
+    int m2 = max(c, d);
+    return max(m1, m2);
+}
+OUTPUT:
+9
